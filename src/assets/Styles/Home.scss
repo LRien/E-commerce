@@ -1,0 +1,22 @@
+/* Home page styling */
+@import '../Styles/FontsImport.scss';
+.hero-section{
+    height:100vh;
+    width:100%;
+    max-width: 1600px;
+}
+
+.hero-section{
+    .hero-container{
+        height:90%;
+        margin-left: auto;
+        margin-right: auto;
+        width:90%;
+    }
+    h1{
+        font-family: $Medium;
+    }
+}
+
+
+

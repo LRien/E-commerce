@@ -1,0 +1,46 @@
+/* Navigation Bar Style*/
+@import 'FontsImport';
+
+nav{
+    width:100vw;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+.nav_container{
+    display: flex;
+    margin-right:auto;
+    margin-left:auto;
+    width:90%;
+    justify-content: space-between;
+
+ul{
+    padding:0;
+}
+
+}
+.Mil{
+    height:50px;
+    width:50px;
+}
+
+li {
+
+    .right-links{
+        margin-right:15px;
+    }    
+}
+li{
+
+    .left-links{
+        margin-left:15px;
+    }
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration:none;
+    color:#000;
+}

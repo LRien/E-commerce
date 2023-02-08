@@ -1,0 +1,154 @@
+/* Products Styling */
+@import '../Styles/FontsImport.scss';
+
+.products-cards-containers{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+/*------*/
+
+/* Cards of the products */
+
+.card{
+    width:300px;
+    background-color: #f8f8f8;;
+    padding:20px;
+    margin-bottom:10px;
+    margin-right:10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card{
+    .product-name{
+        font-family:$Medium;
+        font-size:20px;
+        margin:0;
+    }
+}
+
+.card{
+    .price{
+        font-family:$light;
+        font-size:15px;
+        margin-top:5px;
+        opacity:90%;
+        margin-bottom:15px;
+    }
+}
+
+.card{
+    .price-text{
+        font-family:$Roman;
+    }
+}
+
+.card{
+    .description{
+        font-family:$Roman;
+        font-size:15px;
+        margin:0;
+    }
+}
+
+.card{
+    .text-muted{
+        font-family: $light;
+        margin-top:5px;
+        margin-bottom:15px;
+        opacity:80%;
+    }
+}
+
+.card{
+    .vue-product-button{
+        width:100%;
+        background-color: #000;
+        color:#fff;
+        border-radius:5px;
+        font-family:$Roman;
+        padding-top:10px;
+        padding-bottom:10px;
+        margin-top:30px;
+        cursor:pointer;
+    }
+}
+
+/*----------*/
+
+.drawer-background{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    background-color: rgba(124,124,124,0.55);
+    z-index: 100; 
+    display: none;
+    transition:display .5s;
+
+    &.show{
+        display: block;
+    }
+}
+
+.drawer{
+    width:95vw;
+    border-radius: 5px;
+    height:100vh;
+    background-color: white;
+    position: fixed;
+    top:0;
+    left:-105vw;
+    padding:15px;
+    transition: left .5s;
+    z-index: 101;
+    overflow-y: scroll;
+
+    &.show{
+        left:0;
+    }
+}
+
+.drawer-close{
+    font-size: 1.5rem;
+    padding:5px;
+    border-radius: 5px;
+    right:10px;
+    border:2px solid grey;
+    color:grey;
+    width:15px;
+    float:right;
+    cursor: pointer;
+
+    &:hover{
+        background-color: lightgrey;
+    }
+}
+
+.product-details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    p.description{
+        padding: 20px;
+        line-height: 1.5rem;
+    }
+
+    .button-container{
+        button{
+            width:150px;
+            border:none;
+            padding:10px;
+            border-radius: 5px;
+            margin: 0 5px 50px 5px;
+            cursor: pointer;
+        }
+    }
+}
+
+

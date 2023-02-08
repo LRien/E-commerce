@@ -1,0 +1,46 @@
+/*Fonts This will serve as the styleguide for text*/
+
+@font-face {
+    font-family: "CustomFontRoman";
+    src: url("@/assets/Fonts/Helvetica/HelveticaNeueCyr-Roman.ttf");
+}
+
+@font-face {
+    font-family:"CustomFontMedium";
+    src: url("@/assets/Fonts/Helvetica/HelveticaNeueCyr-Medium.ttf");
+}
+
+@font-face {
+    font-family:"CustomFontBold";
+    src: url("@/assets/Fonts/Helvetica/HelveticaNeueCyr-Bold.ttf");
+}
+
+@font-face {
+    font-family:"CustomFontLight";
+    src:url("@/assets/Fonts/Helvetica/HelveticaNeueCyr-Light.ttf");
+}
+
+/* Font Weights */
+
+$light:"CustomFontLight", Arial, Helvetica, sans-serif;
+$Roman:"CustomFontRoman", Arial, Helvetica, sans-serif;
+$Medium:"CustomFontMedium", Arial, Helvetica, sans-serif;
+$Bold:"CustomFontBold", Arial, Helvetica, sans-serif;
+
+/* Fonts Declaration */
+
+a{
+    font-family:$Medium;
+    font-size:16px;
+}
+
+h1{
+    font-family:$Bold;
+}
+
+body{
+    font-family: $Roman;
+}
+
+
+
