@@ -1,0 +1,15 @@
+WHAT YOU NEED:
+
+1. vue/cli version 3
+2. babel
+3. mongodb
+4. nodemon
+5. express
+5. postman to test the server
+
+note: there is only one user id in the data base 
+
+hope this helps man
+
+NPM RUN DEV to run the server
+NPM RUN SERVE to run vue
